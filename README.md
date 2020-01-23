@@ -1,8 +1,9 @@
 # SageMaker JupyterLab with FargateCluster
 
-![2020-01-23_15-24-00](https://user-images.githubusercontent.com/1872600/73020948-9f2c0c00-3df4-11ea-9060-54a07f7edd08.png)
 
 This is how I started JupyterLab using SageMaker, then launched a FargateCluster using [dask-cloudprovider](https://github.com/dask/dask-cloudprovider), following [Jacob Tomlinson's excellent blog post](https://medium.com/rapids-ai/getting-started-with-rapids-on-aws-ecs-using-dask-cloud-provider-b1adfdbc9c6e). 
+
+![2020-01-23_15-24-00](https://user-images.githubusercontent.com/1872600/73020948-9f2c0c00-3df4-11ea-9060-54a07f7edd08.png)
 
 First I created a SageMaker notebook instance using the AWS Console.  The default is `ml.t2.tiny` with 5GB EBS disk, but that wasn't enough memory or disk for me to create a custom conda environment with xarray, hvplot etc.   So I chose `ml.t3.large` with 40GB storage. 
 
