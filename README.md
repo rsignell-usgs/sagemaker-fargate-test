@@ -7,7 +7,7 @@ First I created a SageMaker notebook instance using the AWS Console.  The defaul
 Under SageMaker=>Notebook=>Git Repositories, I added this sagemaker-fargate-test repo so I would have my sample notebooks when I start my SageMaker JupyterLab. 
 
 I then fired up the SageMaker instance JupyterLab, opened a terminal and typed:
-```
+```bash
 conda activate base
 conda update conda -y
 conda env create -f ~/SageMaker/sagemaker-fargate-test/pangeo_env.yml
