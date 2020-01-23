@@ -1,4 +1,4 @@
-# sagemaker-fargate-test
+# SageMaker JupyterLab with FargateCluster
 
 This is how I started JupyterLab using SageMaker, then launched a FargateCluster using [dask-cloudprovider](https://github.com/dask/dask-cloudprovider), following [Jacob Tomlinson's excellent blog post](https://medium.com/rapids-ai/getting-started-with-rapids-on-aws-ecs-using-dask-cloud-provider-b1adfdbc9c6e). 
 
