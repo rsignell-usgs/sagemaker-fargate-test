@@ -20,4 +20,6 @@ I then created a SageMaker "Lifecycle configuration" script, which runs when the
 
 The last remaining step was to create a dask worker container for FargateCluster to run.  To create this container, I just [added some packages to the daskdev/dask container Dockerfile](https://github.com/rsignell-usgs/dask-docker/blob/pangeo/base/Dockerfile#L13-L19). 
 
-The sample hurricane ike notebook then [ran successfully](https://nbviewer.jupyter.org/gist/rsignell-usgs/097929d6587f2107c47b72032174e19c).
+The sample hurricane ike notebook then [ran successfully](https://nbviewer.jupyter.org/gist/rsignell-usgs/097929d6587f2107c47b72032174e19c).  Here's a snapshot of the Dask dashboard:
+
+![2020-01-23_14-48-49](https://user-images.githubusercontent.com/1872600/73019048-d13b6f00-3df0-11ea-9ee5-4f32f1d71598.png)
