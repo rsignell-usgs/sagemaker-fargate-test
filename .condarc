@@ -7,4 +7,3 @@ pkgs_dirs:
   - ~/anaconda3/pkgs
 auto_update_conda: false
 safety_checks: disabled
-channel_priority: strict
