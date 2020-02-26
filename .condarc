@@ -1,10 +1,10 @@
 show_channel_urls: true
 channels:
   - conda-forge
-  - defaults
 envs_dirs:
   - /home/ec2-user/SageMaker/myenvs
 pkgs_dirs:
   - ~/anaconda3/pkgs
 auto_update_conda: false
 safety_checks: disabled
+channel_priority: strict
