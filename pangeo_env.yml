@@ -1,15 +1,17 @@
-name: pangeo
+name: pangeo2
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.6
   - bokeh
   - cartopy
   - cython
   - dask
-  - dask-cloudprovider
+  - aiobotocore
+  - erddapy
+  - stglib
   - numpy
+  - python-gist
   - python-blosc
   - hvplot
   - h5py
@@ -18,10 +20,10 @@ dependencies:
   - ipywidgets
   - geoviews
   - holoviews
-  - lz4
   - datashader
   - panel
   - metpy
+  - lz4
   - netcdf4
   - xarray
   - s3fs
@@ -30,3 +32,6 @@ dependencies:
   - utide
   - zarr
   - earthsim
+  - pip
+  - pip: 
+    - git+https://github.com/mrocklin/dask-cloudprovider.git@aiobotocore-1
