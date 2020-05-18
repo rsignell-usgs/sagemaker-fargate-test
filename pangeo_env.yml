@@ -32,6 +32,3 @@ dependencies:
   - utide
   - zarr
   - earthsim
-  - pip
-  - pip: 
-    - git+https://github.com/mrocklin/dask-cloudprovider.git@aiobotocore-1
